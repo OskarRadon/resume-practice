@@ -1,14 +1,31 @@
 .header {
   text-align: center;
-  font-family: cursive;
-  color: green;
+  font-size: 25px;
 }
-
-.education {
-  color: red;
-}
-
 
 .blog-title {
   font-size: 30px;
+  text-align: center;
+}
+
+.contact {
+  border-top: 1px solid gray;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+body {
+  font-size: 1.2em;
+  padding: 20px;
+  margin: 20px;
+}
+
+span {
+  font-weight: bold;
 }
